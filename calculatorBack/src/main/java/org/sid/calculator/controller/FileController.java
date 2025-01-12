@@ -12,7 +12,7 @@ import java.util.List;
 @RequestMapping("/api/files")
 public class FileController {
 
-    private String directoryPath="C:\\Users\\aliat\\Desktop\\REACT 18\\calculatrice\\public";
+    private String directoryPath="C:\\Users\\aliat\\Desktop\\REACT 18\\CalculPlugins\\calculatorBack\\public";
 
     @GetMapping
     public List<String> listFiles() {
